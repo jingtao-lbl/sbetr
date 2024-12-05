@@ -1,2 +1,0 @@
-/usr/bin/ar qc libbetr_echem.a CMakeFiles/betr_echem.dir/eChemConstMod.F90.o CMakeFiles/betr_echem.dir/eChemMod.F90.o
-/usr/bin/ranlib libbetr_echem.a

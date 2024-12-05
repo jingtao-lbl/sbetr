@@ -1,2 +1,0 @@
-/usr/bin/ar qc libecacnpNlayer.a CMakeFiles/ecacnpNlayer.dir/ecacnpBGCReactionsType.F90.o CMakeFiles/ecacnpNlayer.dir/ecacnpPlantSoilBGCType.F90.o
-/usr/bin/ranlib libecacnpNlayer.a

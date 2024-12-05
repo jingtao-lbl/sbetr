@@ -1,2 +1,0 @@
-/usr/bin/ar qc libbetr_rxns.a CMakeFiles/betr_rxns.dir/ReactionsFactory.F90.o CMakeFiles/betr_rxns.dir/MockBGCReactionsType.F90.o CMakeFiles/betr_rxns.dir/MockPlantSoilBGCType.F90.o CMakeFiles/betr_rxns.dir/DIOCPlantSoilBGCType.F90.o CMakeFiles/betr_rxns.dir/DIOCBGCReactionsType.F90.o CMakeFiles/betr_rxns.dir/H2OIsotopeBGCReactionsType.F90.o CMakeFiles/betr_rxns.dir/H2OIsotopePlantSoilBGCType.F90.o
-/usr/bin/ranlib libbetr_rxns.a

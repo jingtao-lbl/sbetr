@@ -1,5 +1,0 @@
-# The fortran modules provided by this target.
-provides
- almbetrnlmod.mod
- betrsimulationalm.mod
- calibrationtype.mod

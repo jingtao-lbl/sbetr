@@ -1,2 +1,0 @@
-/usr/bin/ar qc libjarmodel_driver.a CMakeFiles/jarmodel_driver.dir/JarModelFactory.F90.o CMakeFiles/jarmodel_driver.dir/jarmodel.F90.o
-/usr/bin/ranlib libjarmodel_driver.a

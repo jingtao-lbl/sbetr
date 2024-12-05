@@ -1,2 +1,0 @@
-/usr/bin/ar qc libkecaNlayer.a CMakeFiles/kecaNlayer.dir/kecaBGCReactionsType.F90.o CMakeFiles/kecaNlayer.dir/kecaPlantSoilBGCType.F90.o
-/usr/bin/ranlib libkecaNlayer.a

@@ -1,2 +1,0 @@
-/usr/bin/ar qc libmath_test.a CMakeFiles/math_test.dir/mathtest.F90.o CMakeFiles/math_test.dir/robertsonMod.F90.o CMakeFiles/math_test.dir/robertson.F90.o
-/usr/bin/ranlib libmath_test.a

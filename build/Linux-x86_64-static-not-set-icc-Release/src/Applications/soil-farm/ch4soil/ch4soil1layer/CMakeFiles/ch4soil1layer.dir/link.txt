@@ -1,2 +1,0 @@
-/usr/bin/ar qc libch4soil1layer.a CMakeFiles/ch4soil1layer.dir/ch4soilBGCIndexType.F90.o CMakeFiles/ch4soil1layer.dir/ch4soilBGCCompetType.F90.o CMakeFiles/ch4soil1layer.dir/ch4soilBGCDecompType.F90.o CMakeFiles/ch4soil1layer.dir/ch4soilBGCNitDenType.F90.o CMakeFiles/ch4soil1layer.dir/ch4soilBGCSOMType.F90.o CMakeFiles/ch4soil1layer.dir/ch4soilBGCType.F90.o
-/usr/bin/ranlib libch4soil1layer.a

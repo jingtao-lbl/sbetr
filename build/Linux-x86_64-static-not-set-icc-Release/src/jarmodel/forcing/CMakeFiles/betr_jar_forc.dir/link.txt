@@ -1,2 +1,0 @@
-/usr/bin/ar qc libbetr_jar_forc.a CMakeFiles/betr_jar_forc.dir/analforc.F90.o CMakeFiles/betr_jar_forc.dir/SoilForcType.F90.o CMakeFiles/betr_jar_forc.dir/AtmForcType.F90.o CMakeFiles/betr_jar_forc.dir/OMForcType.F90.o CMakeFiles/betr_jar_forc.dir/NutForcType.F90.o CMakeFiles/betr_jar_forc.dir/ForcDataType.F90.o CMakeFiles/betr_jar_forc.dir/SetJarForcMod.F90.o
-/usr/bin/ranlib libbetr_jar_forc.a

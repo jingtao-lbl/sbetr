@@ -1,2 +1,0 @@
-/usr/bin/ar qc libsumms1layer.a CMakeFiles/summs1layer.dir/BgcSummsIndexType.F90.o CMakeFiles/summs1layer.dir/BgcSummsCompetType.F90.o CMakeFiles/summs1layer.dir/BgcSummsDecompType.F90.o CMakeFiles/summs1layer.dir/BgcSummsNitDenType.F90.o CMakeFiles/summs1layer.dir/BgcSummsSOMType.F90.o CMakeFiles/summs1layer.dir/BgcSummsType.F90.o CMakeFiles/summs1layer.dir/BgcSummsMath.F90.o CMakeFiles/summs1layer.dir/BgcSummsDebType.F90.o CMakeFiles/summs1layer.dir/DebGrowMod.F90.o
-/usr/bin/ranlib libsumms1layer.a

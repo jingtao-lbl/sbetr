@@ -1,2 +1,0 @@
-/usr/bin/ar qc libch4soilPara.a CMakeFiles/ch4soilPara.dir/ch4soilParaType.F90.o
-/usr/bin/ranlib libch4soilPara.a

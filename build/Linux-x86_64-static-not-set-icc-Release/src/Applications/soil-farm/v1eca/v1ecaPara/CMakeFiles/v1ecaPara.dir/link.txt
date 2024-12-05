@@ -1,2 +1,0 @@
-/usr/bin/ar qc libv1ecaPara.a CMakeFiles/v1ecaPara.dir/v1ecaParaType.F90.o
-/usr/bin/ranlib libv1ecaPara.a

@@ -1,2 +1,0 @@
-/usr/bin/ar qc libcdomNlayer.a CMakeFiles/cdomNlayer.dir/cdomBGCReactionsType.F90.o CMakeFiles/cdomNlayer.dir/cdomPlantSoilBGCType.F90.o
-/usr/bin/ranlib libcdomNlayer.a

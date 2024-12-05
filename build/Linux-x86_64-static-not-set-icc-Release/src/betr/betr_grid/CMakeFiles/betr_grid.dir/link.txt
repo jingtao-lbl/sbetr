@@ -1,2 +1,0 @@
-/usr/bin/ar qc libbetr_grid.a CMakeFiles/betr_grid.dir/BeTR_ColumnType.F90.o CMakeFiles/betr_grid.dir/BeTR_LandunitType.F90.o CMakeFiles/betr_grid.dir/BeTR_PatchType.F90.o CMakeFiles/betr_grid.dir/BeTR_landvarconType.F90.o CMakeFiles/betr_grid.dir/BeTR_pftvarconType.F90.o
-/usr/bin/ranlib libbetr_grid.a

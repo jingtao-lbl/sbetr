@@ -1,8 +1,0 @@
-# The fortran modules provided by this target.
-provides
- v1ecabgccompettype.mod
- v1ecabgcdecomptype.mod
- v1ecabgcindextype.mod
- v1ecabgcnitdentype.mod
- v1ecabgcsomtype.mod
- v1ecabgctype.mod

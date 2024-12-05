@@ -1,2 +1,0 @@
-/usr/bin/ar qc libcdom1layer.a CMakeFiles/cdom1layer.dir/cdomBGCIndexType.F90.o CMakeFiles/cdom1layer.dir/cdomBGCCompetType.F90.o CMakeFiles/cdom1layer.dir/cdomBGCDecompType.F90.o CMakeFiles/cdom1layer.dir/cdomBGCNitDenType.F90.o CMakeFiles/cdom1layer.dir/cdomBGCSOMType.F90.o CMakeFiles/cdom1layer.dir/cdomBGCType.F90.o
-/usr/bin/ranlib libcdom1layer.a

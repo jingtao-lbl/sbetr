@@ -1,9 +1,0 @@
-# The fortran modules provided by this target.
-provides
- anaforc.mod
- atmforctype.mod
- forcdatatype.mod
- nutforctype.mod
- omforctype.mod
- setjarforcmod.mod
- soilforctype.mod

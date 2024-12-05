@@ -1,2 +1,0 @@
-/usr/bin/ar qc libbgcfarm_util.a CMakeFiles/bgcfarm_util.dir/BiogeoConType.F90.o CMakeFiles/bgcfarm_util.dir/JarBgcForcType.F90.o CMakeFiles/bgcfarm_util.dir/BeTRJarModel.F90.o CMakeFiles/bgcfarm_util.dir/SOMStateVarUpdateMod.F90.o CMakeFiles/bgcfarm_util.dir/gBGCIndexType.F90.o CMakeFiles/bgcfarm_util.dir/GeoChemAlgorithmMod.F90.o CMakeFiles/bgcfarm_util.dir/EcosysMicDynParamMod.F90.o
-/usr/bin/ranlib libbgcfarm_util.a

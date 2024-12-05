@@ -1,9 +1,0 @@
-# The fortran modules provided by this target.
-provides
- diocbgcreactionstype.mod
- diocplantsoilbgctype.mod
- h2oisotopebgcreactionstype.mod
- h2oisotopeplantsoilbgctype.mod
- mockbgcreactionstype.mod
- mockplantsoilbgctype.mod
- reactionsfactory.mod

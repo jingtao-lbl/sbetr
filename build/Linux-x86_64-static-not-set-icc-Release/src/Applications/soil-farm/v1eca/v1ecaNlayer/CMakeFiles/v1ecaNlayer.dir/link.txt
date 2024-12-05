@@ -1,2 +1,0 @@
-/usr/bin/ar qc libv1ecaNlayer.a CMakeFiles/v1ecaNlayer.dir/v1ecaBGCReactionsType.F90.o CMakeFiles/v1ecaNlayer.dir/v1ecaPlantSoilBGCType.F90.o
-/usr/bin/ranlib libv1ecaNlayer.a

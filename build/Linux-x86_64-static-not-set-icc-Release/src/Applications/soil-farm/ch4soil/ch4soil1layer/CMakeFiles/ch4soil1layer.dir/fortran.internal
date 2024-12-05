@@ -1,8 +1,0 @@
-# The fortran modules provided by this target.
-provides
- ch4soilbgccompettype.mod
- ch4soilbgcdecomptype.mod
- ch4soilbgcindextype.mod
- ch4soilbgcnitdentype.mod
- ch4soilbgcsomtype.mod
- ch4soilbgctype.mod

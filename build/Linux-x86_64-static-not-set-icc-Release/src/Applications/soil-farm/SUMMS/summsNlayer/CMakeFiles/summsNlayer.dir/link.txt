@@ -1,2 +1,0 @@
-/usr/bin/ar qc libsummsNlayer.a CMakeFiles/summsNlayer.dir/BgcReactionsSummsType.F90.o CMakeFiles/summsNlayer.dir/PlantSoilBgcSummsType.F90.o
-/usr/bin/ranlib libsummsNlayer.a

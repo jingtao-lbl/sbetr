@@ -1,2 +1,0 @@
-/usr/bin/ar qc libsimicPara.a CMakeFiles/simicPara.dir/simicParaType.F90.o
-/usr/bin/ranlib libsimicPara.a

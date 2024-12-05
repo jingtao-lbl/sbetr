@@ -1,2 +1,0 @@
-/usr/bin/ar qc libbetr_para.a CMakeFiles/betr_para.dir/TracerParamSetMod.F90.o CMakeFiles/betr_para.dir/TracerParamSetWatIsoMod.F90.o CMakeFiles/betr_para.dir/TracerParamsMod.F90.o
-/usr/bin/ranlib libbetr_para.a

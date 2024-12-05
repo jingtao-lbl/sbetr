@@ -1,2 +1,0 @@
-/usr/bin/ar qc libsummsPara.a CMakeFiles/summsPara.dir/SummsParaType.F90.o
-/usr/bin/ranlib libsummsPara.a

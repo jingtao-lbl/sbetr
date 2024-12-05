@@ -1,2 +1,0 @@
-/usr/bin/ar qc libapp_util.a CMakeFiles/app_util.dir/ApplicationsFactory.F90.o
-/usr/bin/ranlib libapp_util.a

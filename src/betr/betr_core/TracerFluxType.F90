@@ -48,7 +48,7 @@ module TracerFluxType
      real(r8), pointer :: tracer_flx_vtrans_col(:,:)     => null() !column level tracer flux through transpiration
      real(r8), pointer :: tracer_flx_vtrans_vr_col(:,:,:) => null()!
      !real(r8), pointer :: tracer_flx_snowloss_col(:,:)  => null()  !tracer flux lost from snow dynamics, place holder
-     real(r8), pointer :: tracer_flx_decomp_vr_col(:,:,:) => null() !custom output: decomposition flux                      ! added from rzacplsbetr_cmupdated          -zlyu
+     real(r8), pointer :: tracer_flx_decomp_vr_col(:,:,:) => null() !custom output: decomposition flux
      real(r8), pointer :: tracer_flx_uptake_vr_col(:,:,:) => null() !custom output: uptake flux
      real(r8), pointer :: tracer_flx_cue_vr_col(:,:,:)    => null() !custom output: uptake flux
      real(r8), pointer :: tracer_flx_maint_vr_col(:,:,:)  => null() !custom output: maintenance flux
@@ -420,7 +420,7 @@ contains
       this%tracer_flx_sub_snow_col   (c,:) = 0._r8
       this%tracer_flx_h2osfc_snow_residual_col(c,:) = 0._r8
       this%tracer_flx_totleached_col (c,:) = 0._r8
-      this%tracer_flx_decomp_vr_col(c,:,:) = 0._r8                       !added from rzacplsbetr_cmupdated                -zlyu
+      this%tracer_flx_decomp_vr_col(c,:,:) = 0._r8
       this%tracer_flx_uptake_vr_col(c,:,:) = 0._r8
       this%tracer_flx_cue_vr_col(c,:,:)    = 0._r8
       this%tracer_flx_maint_vr_col(c,:,:)  = 0._r8
@@ -506,7 +506,7 @@ contains
       this%tracer_flx_h2osfc_snow_residual_col(column,:)   = 0._r8
       this%tracer_flx_netpro_vr_col  (column,:,:)   = 0._r8
       this%tracer_flx_totleached_col (column,:)   = 0._r8
-      this%tracer_flx_decomp_vr_col  (column,:,:) = 0._r8           !added from rzacplsbetr_cmupdated                -zlyu
+      this%tracer_flx_decomp_vr_col  (column,:,:) = 0._r8
       this%tracer_flx_uptake_vr_col  (column,:,:) = 0._r8
       this%tracer_flx_cue_vr_col     (column,:,:) = 0._r8
       this%tracer_flx_maint_vr_col   (column,:,:) = 0._r8
@@ -562,7 +562,7 @@ contains
     this%tracer_flx_h2osfc_snow_residual_col(column,:) =  this%tracer_flx_h2osfc_snow_residual_col(column,:)/dtime
 
     this%tracer_flx_totleached_col(column,:) = this%tracer_flx_drain_col(column,:) + this%tracer_flx_leaching_col(column,:)
-    this%tracer_flx_decomp_vr_col  (column,:,:)   = this%tracer_flx_decomp_vr_col  (column,:,:)/dtime          !added from rzacplsbetr_cmupdated                -zlyu
+    this%tracer_flx_decomp_vr_col  (column,:,:)   = this%tracer_flx_decomp_vr_col  (column,:,:)/dtime
     this%tracer_flx_uptake_vr_col  (column,:,:)   = this%tracer_flx_uptake_vr_col  (column,:,:)/dtime
     this%tracer_flx_cue_vr_col     (column,:,:)   = this%tracer_flx_cue_vr_col     (column,:,:)/dtime
     this%tracer_flx_maint_vr_col   (column,:,:)   = this%tracer_flx_maint_vr_col   (column,:,:)/dtime
@@ -621,13 +621,9 @@ contains
             this%tracer_flx_tparchm_col(c,kk) = dot_sum(x=this%tracer_flx_parchm_vr_col(c,1:nlevtrc_soil,kk), &
                  y=col%dz(c,1:nlevtrc_soil), bstatus=bstatus)
             if(bstatus%check_status())return
-            !write(iulog, *) 'In TracerFluxType  kk=',kk
-            !write(iulog, *) 'flx_tparchm=', this%tracer_flx_tparchm_col(c,kk)               !-zlyu
-            !write(iulog, *) 'flx_dif=', this%tracer_flx_dif_col(c,kk)
-            !write(iulog, *) 'flx_ebu=', this%tracer_flx_ebu_col(c,kk)
+            
             this%tracer_flx_surfemi_col(c,kk) = this%tracer_flx_tparchm_col(c,kk) + this%tracer_flx_dif_col(c,kk) + &
                  this%tracer_flx_ebu_col(c,kk)
-            !write(iulog, *) 'Jing Tao checking flx_surfemi:', this%tracer_flx_surfemi_col(c,kk)               !-zlyu
             
             this%tracer_flx_netphyloss_col(c,jj) = this%tracer_flx_netphyloss_col(c,jj)  +  this%tracer_flx_surfemi_col(c,kk)
 
@@ -781,7 +777,7 @@ contains
 
       id=addone(idtemp1d); flux_1d(begc:endc,id) = this%tracer_flx_prec_col(begc:endc, jj)
     enddo
-      !added from rzacplsbetr_cmupdated                -zlyu
+      
       id=addone(idtemp2d); flux_2d(begc:endc,lbj:ubj,id) = this%tracer_flx_decomp_vr_col(begc:endc, lbj:ubj,1)
 
       id=addone(idtemp2d); flux_2d(begc:endc,lbj:ubj,id) = this%tracer_flx_uptake_vr_col(begc:endc, lbj:ubj,1)

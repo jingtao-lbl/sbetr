@@ -1,8 +1,0 @@
-# The fortran modules provided by this target.
-provides
- kecabgccompettype.mod
- kecabgcdecomptype.mod
- kecabgcindextype.mod
- kecabgcnitdentype.mod
- kecabgcsomtype.mod
- kecabgctype.mod

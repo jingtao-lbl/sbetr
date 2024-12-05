@@ -1,2 +1,0 @@
-/usr/bin/ar qc libcdomPara.a CMakeFiles/cdomPara.dir/cdomParaType.F90.o
-/usr/bin/ranlib libcdomPara.a

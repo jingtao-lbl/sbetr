@@ -1,8 +1,0 @@
-# The fortran modules provided by this target.
-provides
- cdombgccompettype.mod
- cdombgcdecomptype.mod
- cdombgcindextype.mod
- cdombgcnitdentype.mod
- cdombgcsomtype.mod
- cdombgctype.mod

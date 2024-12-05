@@ -1,2 +1,0 @@
-/usr/bin/ar qc libkecaPara.a CMakeFiles/kecaPara.dir/kecaParaType.F90.o
-/usr/bin/ranlib libkecaPara.a

@@ -1,4 +1,0 @@
-# The fortran modules provided by this target.
-provides
- kecabgcreactionstype.mod
- kecaplantsoilbgctype.mod

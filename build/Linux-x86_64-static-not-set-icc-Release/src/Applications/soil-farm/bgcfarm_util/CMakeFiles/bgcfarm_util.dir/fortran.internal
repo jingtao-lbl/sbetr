@@ -1,9 +1,0 @@
-# The fortran modules provided by this target.
-provides
- betrjarmodel.mod
- biogeocontype.mod
- ecosysmicdynparammod.mod
- gbgcindextype.mod
- geochemalgorithmmod.mod
- jarbgcforctype.mod
- somstatevarupdatemod.mod

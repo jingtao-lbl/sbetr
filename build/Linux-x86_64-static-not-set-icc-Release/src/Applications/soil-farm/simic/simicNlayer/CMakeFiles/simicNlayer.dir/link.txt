@@ -1,2 +1,0 @@
-/usr/bin/ar qc libsimicNlayer.a CMakeFiles/simicNlayer.dir/simicBGCReactionsType.F90.o CMakeFiles/simicNlayer.dir/simicPlantSoilBGCType.F90.o
-/usr/bin/ranlib libsimicNlayer.a

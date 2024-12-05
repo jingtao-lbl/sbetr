@@ -1,2 +1,0 @@
-/usr/bin/ar qc libecacnpPara.a CMakeFiles/ecacnpPara.dir/ecacnpParaType.F90.o
-/usr/bin/ranlib libecacnpPara.a

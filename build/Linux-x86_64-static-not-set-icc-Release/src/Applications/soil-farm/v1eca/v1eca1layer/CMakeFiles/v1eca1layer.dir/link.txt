@@ -1,2 +1,0 @@
-/usr/bin/ar qc libv1eca1layer.a CMakeFiles/v1eca1layer.dir/v1ecaBGCIndexType.F90.o CMakeFiles/v1eca1layer.dir/v1ecaBGCCompetType.F90.o CMakeFiles/v1eca1layer.dir/v1ecaBGCDecompType.F90.o CMakeFiles/v1eca1layer.dir/v1ecaBGCNitDenType.F90.o CMakeFiles/v1eca1layer.dir/v1ecaBGCSOMType.F90.o CMakeFiles/v1eca1layer.dir/v1ecaBGCType.F90.o
-/usr/bin/ranlib libv1eca1layer.a

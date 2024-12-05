@@ -1,2 +1,0 @@
-/usr/bin/ar qc libjarmodel_test.a CMakeFiles/jarmodel_test.dir/iotest.F90.o CMakeFiles/jarmodel_test.dir/timertest.F90.o CMakeFiles/jarmodel_test.dir/readparatest.F90.o
-/usr/bin/ranlib libjarmodel_test.a

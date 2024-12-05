@@ -1,2 +1,0 @@
-/usr/bin/ar qc libbetr_driver_main.a CMakeFiles/betr_driver_main.dir/BeTRSimulationFactory.F90.o CMakeFiles/betr_driver_main.dir/HistBGCMod.F90.o CMakeFiles/betr_driver_main.dir/sbetrDriverMod.F90.o
-/usr/bin/ranlib libbetr_driver_main.a

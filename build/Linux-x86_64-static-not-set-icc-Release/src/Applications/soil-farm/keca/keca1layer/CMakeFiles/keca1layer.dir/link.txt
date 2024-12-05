@@ -1,2 +1,0 @@
-/usr/bin/ar qc libkeca1layer.a CMakeFiles/keca1layer.dir/kecaBGCIndexType.F90.o CMakeFiles/keca1layer.dir/kecaBGCCompetType.F90.o CMakeFiles/keca1layer.dir/kecaBGCDecompType.F90.o CMakeFiles/keca1layer.dir/kecaBGCNitDenType.F90.o CMakeFiles/keca1layer.dir/kecaBGCSOMType.F90.o CMakeFiles/keca1layer.dir/kecaBGCType.F90.o
-/usr/bin/ranlib libkeca1layer.a

@@ -1,2 +1,0 @@
-/usr/bin/ar qc libsimic1layer.a CMakeFiles/simic1layer.dir/simicBGCIndexType.F90.o CMakeFiles/simic1layer.dir/simicBGCType.F90.o
-/usr/bin/ranlib libsimic1layer.a

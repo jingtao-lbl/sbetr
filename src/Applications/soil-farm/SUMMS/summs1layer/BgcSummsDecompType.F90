@@ -272,7 +272,6 @@ implicit none
   t_fact0 = 1._r8/(1._r8+exp(-xpar1*deltag0/(rgas*temp0)))   
   deltag1 = xpar2-deltas_star*tref+cp*(tref-th_star-tref*log(tref/ts_star))
   t_fact1  = 1._r8/(1._r8+exp(-xpar1*deltag1/(rgas*tref)))
-
   !t_fact0=t_fact0/t_fact1 ! Active enzyme fraction in total enzyme vs temperaure           !comment out in rzacplsbetr_cmupdated,   -zlyu
   
   tinv=1._r8/tempbgc-1._r8/tref ! Modifies activation energy
@@ -280,13 +279,14 @@ implicit none
   
   fref=t_fact*(tempbgc/tref)                                 !Modifies non-equilibrium enzymatic reactions
   !fref=t_fact/t_fact1*(tempbgc/tref)                        !change from zacplsbetr_cmupdated,   -zlyu        
-      
+
   !Update parameters - accounting for temperature influences on non-equilibrium (forward or irreversible) reactions, 
   !including enzymatic degradation, microbial assimilation of monomers, and reserve pool turnover, 
   !which are all considered as enzyme-mediated reactions in ReSOM.
   this%vmax_enz         = ref_vmax_enz *fref*exp(-ea_vmax_enz*tinv)
   this%vmax_mic         = ref_vmax_mic *fref*exp(-ea_vmax_mic*tinv)
   this%kappa_mic        = ref_kappa_mic*fref*exp(ea_kappa_mic*tinv)
+
   !Update parameters - accounting for temperature influences on equilibrium (reversible) reactions,
   !including mineral-enzyme binding, mineral-monomer binding, enzyme-polymer binding, microbe-monomer binding, and microbial maintenance
   this%kaff_enz_msurf   = ref_kaff_enz_msurf*exp(-ea_kaff_enz_msurf*tinv)

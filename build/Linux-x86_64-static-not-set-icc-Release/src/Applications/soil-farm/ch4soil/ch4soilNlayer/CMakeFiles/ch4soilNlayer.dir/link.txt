@@ -1,2 +1,0 @@
-/usr/bin/ar qc libch4soilNlayer.a CMakeFiles/ch4soilNlayer.dir/ch4soilBGCReactionsType.F90.o CMakeFiles/ch4soilNlayer.dir/ch4soilPlantSoilBGCType.F90.o
-/usr/bin/ranlib libch4soilNlayer.a
