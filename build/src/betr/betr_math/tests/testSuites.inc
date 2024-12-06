@@ -1,1 +1,0 @@
-ADD_TEST_SUITE(test_mathfunc_module_suite)

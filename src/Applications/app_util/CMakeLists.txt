@@ -25,9 +25,9 @@ include_directories(${CMAKE_BINARY_DIR}/src/Applications/soil-farm/simic/simicNl
 include_directories(${CMAKE_BINARY_DIR}/src/Applications/soil-farm/keca/kecaPara)
 include_directories(${CMAKE_BINARY_DIR}/src/Applications/soil-farm/keca/keca1layer)
 include_directories(${CMAKE_BINARY_DIR}/src/Applications/soil-farm/keca/kecaNlayer)
-include_directories(${CMAKE_BINARY_DIR}/src/Applications/soil-farm/SUMMS/summsPara)
-include_directories(${CMAKE_BINARY_DIR}/src/Applications/soil-farm/SUMMS/summs1layer)
-include_directories(${CMAKE_BINARY_DIR}/src/Applications/soil-farm/SUMMS/summsNlayer)
+include_directories(${CMAKE_BINARY_DIR}/src/Applications/soil-farm/resom/resomPara)
+include_directories(${CMAKE_BINARY_DIR}/src/Applications/soil-farm/resom/resom1layer)
+include_directories(${CMAKE_BINARY_DIR}/src/Applications/soil-farm/resom/resomNlayer)
 
 include_directories(${CMAKE_BINARY_DIR}/src/Applications/soil-farm/v1eca/v1ecaPara)
 include_directories(${CMAKE_BINARY_DIR}/src/Applications/soil-farm/v1eca/v1eca1layer)

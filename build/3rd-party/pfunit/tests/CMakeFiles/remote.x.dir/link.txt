@@ -1,1 +1,0 @@
-/opt/intel/oneapi/compiler/2023.2.0/linux/bin/intel64/ifort -g -O0 -g -check uninit -check bounds -traceback -assume realloc_lhs  -DCPRINTEL CMakeFiles/remote.x.dir/RemoteProgram.F90.o -o remote.x  ../source/libpfunit.a libtestpfunit.a ../source/libpfunit.a

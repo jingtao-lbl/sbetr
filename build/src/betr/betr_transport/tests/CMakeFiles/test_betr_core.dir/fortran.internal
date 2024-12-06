@@ -1,4 +1,0 @@
-# The fortran modules provided by this target.
-provides
- test_betr_transport_module.mod
- wraptest_betr_transport_module.mod

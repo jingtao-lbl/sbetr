@@ -5,7 +5,7 @@ add_subdirectory(cdom)
 add_subdirectory(simic)
 add_subdirectory(keca)
 add_subdirectory(ch4soil)
-add_subdirectory(SUMMS)
+add_subdirectory(resom)
 add_subdirectory(v1eca)  #>>>>>>> jinyun_rr
 #end_appadd
 #add_subdirectory(CENT_ECACNP)

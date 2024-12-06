@@ -166,7 +166,7 @@ implicit none
       this%sminp_col(c) = this%sminp_col(c) + dz(c,j)*this%sminp_vr_col(c,j)
       this%occlp_col(c) = this%occlp_col(c) + dz(c,j)*this%occlp_vr_col(c,j)
 
-  if(index(reaction_method,'ecacnp')/=0 .or. index(reaction_method,'summs')/=0)then
+  if(index(reaction_method,'ecacnp')/=0 .or. index(reaction_method,'resom')/=0)then
       this%som1p_col(c) =   this%som1p_col(c) + dz(c,j)*this%som1p_vr_col(c,j)
       this%som2p_col(c) =   this%som2p_col(c) + dz(c,j)*this%som2p_vr_col(c,j)
       this%som3p_col(c) =   this%som3p_col(c) + dz(c,j)*this%som3p_vr_col(c,j)

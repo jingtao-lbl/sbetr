@@ -282,7 +282,7 @@ contains
 
   call this%proc_counter()
 
-  ! decide whether to output at current time step for reaction.1d.sbetr.exp.noadv.summs.hist.XXX.nc       -zlyu
+  ! decide whether to output at current time step for reaction.1d.sbetr.exp.noadv.resom.hist.XXX.nc       -zlyu
   !if(timer%tstep_continue>=timer%hist_start_yr)then
      if(timer%its_a_new_hour())then
         call this%hist_write(clock_hour, this%nh_vars, this%nh_varid)
@@ -308,7 +308,7 @@ contains
         call this%hist_write(clock_year, this%ny_vars, this%ny_varid)
      endif
   !endif
-  ! end of selecting output years for reaction.1d.sbetr.exp.noadv.summs.hist.XXX.nc file          -zlyu
+  ! end of selecting output years for reaction.1d.sbetr.exp.noadv.resom.hist.XXX.nc file          -zlyu
 
   end subroutine hist_wrap
 

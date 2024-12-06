@@ -26,7 +26,7 @@ $ git status
     (use "git add <file>..." to include in what will be committed)
     ../input_data/e3smcase_tr_20190402.clm2.h1.1860-80.nc
     tmp-betr-test-info.txt
-    ../src/Applications/soil-farm/SUMMS/summsPara/.ipynb_checkpoints/
+    ../src/Applications/soil-farm/resom/resomPara/.ipynb_checkpoints/
     
     no changes added to commit (use "git add" and/or "git commit -a")
 -+- -----------------------------------
