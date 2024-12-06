@@ -1,4 +1,0 @@
-# The fortran modules provided by this target.
-provides
- test_mathfunc_module.mod
- wraptest_mathfunc_module.mod

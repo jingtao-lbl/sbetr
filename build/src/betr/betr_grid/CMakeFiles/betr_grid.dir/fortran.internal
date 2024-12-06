@@ -1,7 +1,0 @@
-# The fortran modules provided by this target.
-provides
- betr_columntype.mod
- betr_landunittype.mod
- betr_landvarcontype.mod
- betr_patchtype.mod
- betr_pftvarcontype.mod

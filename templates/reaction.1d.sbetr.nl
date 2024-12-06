@@ -8,7 +8,7 @@
 /
 
 &betr_parameters
-  reaction_method = 'summs'
+  reaction_method = 'resom'
   advection_on = .true.
   diffusion_on = .true.
   reaction_on  = .true.

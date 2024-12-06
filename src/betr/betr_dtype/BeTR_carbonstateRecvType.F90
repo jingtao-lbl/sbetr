@@ -68,7 +68,7 @@ implicit none
   SPVAL_ALLOC(this%totlitc_1m_col(begc:endc))
   SPVAL_ALLOC(this%totsomc_1m_col(begc:endc))
 
-  if(index(reaction_method,'ecacnp')/=0 .or. index(reaction_method,'summs')/=0)then
+  if(index(reaction_method,'ecacnp')/=0 .or. index(reaction_method,'resom')/=0)then
   SPVAL_ALLOC(this%som1c_col(begc:endc))
   SPVAL_ALLOC(this%som2c_col(begc:endc))
   SPVAL_ALLOC(this%som3c_col(begc:endc))

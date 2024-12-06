@@ -1,4 +1,0 @@
-# The fortran modules provided by this target.
-provides
- test_utils_module.mod
- wraptest_utils_module.mod

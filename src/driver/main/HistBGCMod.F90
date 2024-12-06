@@ -118,13 +118,13 @@ contains
     call list_insert(hist_list_var,'POM_C',id1, itype=var_state_type)   ; call list_insert(hist_list_unit,'gC m-2',id2)
     call list_insert(hist_list_var,'totsomc',id1, itype=var_state_type)   ; call list_insert(hist_list_unit,'gC m-2',id2)
     this%nhistvars=id1
-  elseif(index(trim(reaction_method),'summs')/=0 )then
-    ! adding reaction_method 'summs'     -zlyu
+  elseif(index(trim(reaction_method),'resom')/=0 )then
+    ! adding reaction_method 'resom'     -zlyu
     call list_init(hist_list_var,'hr',id1, itype=var_flux_type)          ; call list_init(hist_list_unit,'gC m-2 s-1',id2)
 
     ! testing only, where the run crushed        -zlyu   01/27/2019    
     !write(stdout, *) '***************************'
-    !write(stdout, *) 'in if case summs, after list_init'
+    !write(stdout, *) 'in if case resom, after list_init'
     !write(stdout, *) '***************************'
     ! end of the testing 
 
@@ -162,7 +162,7 @@ contains
     call list_insert(hist_list_var,'som3p',id1, itype=var_state_type)     ; call list_insert(hist_list_unit,'gP m-2',id2)
 
     this%nhistvars=id1
-    ! end of adding for reaction_method 'summs'
+    ! end of adding for reaction_method 'resom'
   endif
 
   allocate(this%varl(this%nhistvars)); 

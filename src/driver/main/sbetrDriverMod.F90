@@ -717,7 +717,7 @@ end subroutine sbetrBGC_driver
     id = id + 1; ystates(id) = phosphorusstate_vars%som2p_col(c_l)
     id = id + 1; ystates(id) = phosphorusstate_vars%som3p_col(c_l)
 
-  elseif(index(trim(reaction_method),'summs')/=0)then                       ! added after introducing 'summs' from Rose's model
+  elseif(index(trim(reaction_method),'resom')/=0)then                       ! added after introducing 'resom' from Rose's model
 
     id = 0
     id = id + 1; ystates(id) = carbonflux_vars%hr_col(c_l)

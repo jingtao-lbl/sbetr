@@ -1095,8 +1095,8 @@ contains
     p31state_vars%sminp_col(c) = this%biogeo_state(c)%p31state_vars%sminp_col(c_l)
     p31state_vars%occlp_col(c) = this%biogeo_state(c)%p31state_vars%occlp_col(c_l)
 
-                                                                     ! added for introducing method 'summs' from Rose's model
-    if(index(reaction_method,'ecacnp')/=0 .or. index(reaction_method,'ch4soil')/=0 .or. index(reaction_method,'summs')/=0)then
+                                                                     ! added for introducing method 'resom' from Rose's model
+    if(index(reaction_method,'ecacnp')/=0 .or. index(reaction_method,'ch4soil')/=0 .or. index(reaction_method,'resom')/=0)then
       c12state_vars%som1c_col(c) = this%biogeo_state(c)%c12state_vars%som1c_col(c_l)
       c12state_vars%som2c_col(c) = this%biogeo_state(c)%c12state_vars%som2c_col(c_l)
       c12state_vars%som3c_col(c) = this%biogeo_state(c)%c12state_vars%som3c_col(c_l)
@@ -1541,8 +1541,8 @@ contains
 
   !the following parameters are specific to ECACNP, and I assume they are
   !grid specific as they currently used in alm-cnp.
-  if(index(reaction_method,'ecacnp')/=0 .or. index(reaction_method, 'ch4soil')/=0 .or. index(reaction_method, 'summs')/=0 .or. index(reaction_method, 'v1eca')/=0)then
-  ! added for introducing method 'summs' from Rose's model   -zlyu, 01/29/2019
+  if(index(reaction_method,'ecacnp')/=0 .or. index(reaction_method, 'ch4soil')/=0 .or. index(reaction_method, 'resom')/=0 .or. index(reaction_method, 'v1eca')/=0)then
+  ! added for introducing method 'resom' from Rose's model   -zlyu, 01/29/2019
   ! vleca from  jinyun_rr
     do j =1, betr_bounds%ubj
       do fc = 1, num_soilc
